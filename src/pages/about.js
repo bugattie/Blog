@@ -1,14 +1,16 @@
-import { Link } from "gatsby"
 import React from "react"
+
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Head from "../components/head"
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <Head title="Home" />
-      <h1>Hi..</h1>
+      <Head title="About" />
+      <h1>About</h1>
+      <p>I'm Mohsin from Karachi, Pakistan.</p>
       <p>
         Need a developer? <Link to="/contact">Contact me.</Link>
       </p>
@@ -16,4 +18,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default AboutPage
